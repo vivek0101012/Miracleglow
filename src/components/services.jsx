@@ -5,74 +5,74 @@ export default function Services (){
 
     const services = [
         {
-          image: "src/images/facial.png",
+          image: "/images/facial.png",
           title: "Glow Facial",
           detail: "Deep cleansing for radiant skin",
           price: 1299,
         },
         {
-          image: "src/images/haircut.png",
+          image: "/images/haircut.png",
           title: "Haircut & Styling",
           detail: "Trendy cuts for a fresh look",
           price: 799,
         },
         {
-          image: "src/images/manicure.png",
+          image: "/images/manicure.png",
           title: "Manicure & Pedicure",
           detail: "Nourish your hands and feet",
           price: 1099,
         },
         {
-          image: "src/images/waxing.png",
+          image: "/images/waxing.png",
           title: "Full Body Wax",
           detail: "Smooth, silky skin guaranteed",
           price: 1499,
         },
         {
-          image: "src/images/makeup.png",
+          image: "/images/makeup.png",
           title: "Bridal Makeup",
           detail: "Flawless beauty for your big day",
           price: 4999,
         },
         {
-          image: "src/images/hairspa.png",
+          image: "/images/hairspa.png",
           title: "Hair Spa",
           detail: "Repair and nourish damaged hair",
           price: 1199,
         },
         {
-          image: "src/images/threading.png",
+          image: "/images/threading.png",
           title: "Eyebrow Threading",
           detail: "Perfectly shaped brows instantly",
           price: 199,
         },
         {
-          image: "src/images/massage.png",
+          image: "/images/massage.png",
           title: "Aroma Therapy",
           detail: "Relax with a soothing massage",
           price: 1799,
         },
       ];const Bestseller = [
         {
-          image: "src/images/facial.png",
+          image: "/images/facial.png",
           title: "Glow Facial",
           detail: "Deep cleansing for radiant skin",
           price: 1299,
         },
         {
-          image: "src/images/haircut.png",
+          image: "/images/haircut.png",
           title: "Haircut & Styling",
           detail: "Trendy cuts for a fresh look",
           price: 799,
         },
         {
-          image: "src/images/manicure.png",
+          image: "/images/manicure.png",
           title: "Manicure & Pedicure",
           detail: "Nourish your hands and feet",
           price: 1099,
         },
         {
-          image: "src/images/waxing.png",
+          image: "/images/waxing.png",
           title: "Full Body Wax",
           detail: "Smooth, silky skin guaranteed",
           price: 1499,
@@ -105,7 +105,7 @@ return <div className="py-16 font-playfair">
   BOOK NOW
 </button>
 
-        <img src="src/images/addtocart.png " 
+        <img src="/images/addtocart.png " 
    onClick={()=>{ console.log(cart);
     
  
@@ -152,7 +152,7 @@ return <div className="py-16 font-playfair">
   BOOK NOW
 </button>
 
-        <img src="src/images/addtocart.png "     onClick={()=>{ console.log(cart);addtocart(e) }}
+        <img src="/images/addtocart.png "     onClick={()=>{ console.log(cart);addtocart(e) }}
  className="object-contain  active:scale-90" width={36}></img>
      </div>
 

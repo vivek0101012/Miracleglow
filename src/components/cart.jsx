@@ -49,10 +49,10 @@ className="rounded-md text-nowrap px-4 py-2 text-white font-semibold
 </button>
 
 <div className="flex flex-col items-center justify-center">
-<img src="src/images/plus.png " 
+<img src="/images/plus.png " 
  onClick={()=>{increasecount(e)}}
         className="object-contain   active:scale-90" width={16} ></img>
-         <img src="src/images/plus.png " 
+         <img src="/images/plus.png " 
 onClick={()=>{decreasecount(e)}}
  className="object-contain rotate-180 active:scale-90" width={16}></img>
 </div>
