@@ -72,9 +72,11 @@ const [isopen,setopen]=useState(false);
 export function Menu(){
 return <div  className=" transition-transform scroll-smooth flex flex-col items-center mt-4 m-2 p-2  shadow-lg space-y-2 rounded border-gray-600 ">
 
-<div className="active:scale-90 "> HOME </div>
-<div className="active:scale-90 " >CONTACT  </div>
-<div className="active:scale-90 " > ABOUT US </div>
+<Link to={"/"}><div className="active:scale-90 "> HOME </div></Link>
+
+<a href="#contact"><div className="active:scale-90 " >CONTACT  </div></a>
+
+<Link to={"/aboutus"}> <div className="active:scale-90 " > ABOUT US </div> </Link>
     
 <button className=" w-[72%] border rounded active:scale-90 border-stone-950  font-bold  px-2 py-1  "> LOGIN </button>
     <button className="w-[72%] text-white active:scale-90 font-bold text-center bg-black px-2 py-1.5 rounded  ">SIGNUP</button> 
