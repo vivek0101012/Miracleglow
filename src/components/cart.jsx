@@ -29,7 +29,7 @@ return <div className="py-16 bg-white/10 flex  flex-col   font-playfair min-h-sc
 
 
 <div className=" flex flex-col md:flex-row items-center justify-evenly space-x-8" >
-<img src={e.image} className="w-[100px] h-10 rounded-t-xl" alt="" />
+<img src={e.image} className="md:w-[200px] rounded-md " alt="" />
 
 
 

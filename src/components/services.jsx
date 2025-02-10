@@ -5,77 +5,67 @@ export default function Services (){
 
     const services = [
         {
-          image: "/images/facial.png",
+          image: "/images/facial.jpg",
           title: "Glow Facial",
           detail: "Deep cleansing for radiant skin",
           price: 1299,
         },
         {
-          image: "/images/haircut.png",
+          image: "/images/haircut.jpg",
           title: "Haircut & Styling",
           detail: "Trendy cuts for a fresh look",
           price: 799,
         },
         {
-          image: "/images/manicure.png",
+          image: "/images/manicure.jpg",
           title: "Manicure & Pedicure",
           detail: "Nourish your hands and feet",
           price: 1099,
         },
+       
         {
-          image: "/images/waxing.png",
-          title: "Full Body Wax",
-          detail: "Smooth, silky skin guaranteed",
-          price: 1499,
-        },
-        {
-          image: "/images/makeup.png",
+          image: "/images/makeup.jpg",
           title: "Bridal Makeup",
           detail: "Flawless beauty for your big day",
           price: 4999,
         },
         {
-          image: "/images/hairspa.png",
+          image: "/images/hairspa.jpg",
           title: "Hair Spa",
           detail: "Repair and nourish damaged hair",
           price: 1199,
         },
         {
-          image: "/images/threading.png",
+          image: "/images/threading.jpg",
           title: "Eyebrow Threading",
           detail: "Perfectly shaped brows instantly",
           price: 199,
         },
-        {
-          image: "/images/massage.png",
-          title: "Aroma Therapy",
-          detail: "Relax with a soothing massage",
-          price: 1799,
-        },
+       
       ];const Bestseller = [
         {
-          image: "/images/facial.png",
+          image: "/images/facial.jpg",
           title: "Glow Facial",
           detail: "Deep cleansing for radiant skin",
           price: 1299,
         },
         {
-          image: "/images/haircut.png",
+          image: "/images/haircut.jpg",
           title: "Haircut & Styling",
           detail: "Trendy cuts for a fresh look",
           price: 799,
         },
         {
-          image: "/images/manicure.png",
+          image: "/images/manicure.jpg",
           title: "Manicure & Pedicure",
           detail: "Nourish your hands and feet",
           price: 1099,
         },
         {
-          image: "/images/waxing.png",
-          title: "Full Body Wax",
-          detail: "Smooth, silky skin guaranteed",
-          price: 1499,
+          image: "/images/threading.jpg",
+          title: "Eyebrow Threading",
+          detail: "Perfectly shaped brows instantly",
+          price: 199,
         },
 
       ];
