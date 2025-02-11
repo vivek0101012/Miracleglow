@@ -79,9 +79,9 @@ return <div  className=" transition-transform scroll-smooth flex flex-col items-
 <a href="#contact"><div className="active:scale-90 " >CONTACT  </div></a>
 
 <Link to={"/aboutus"}> <div className="active:scale-90 " > ABOUT US </div> </Link>
-    
-<button className=" w-[72%] border rounded active:scale-90 border-stone-950  font-bold  px-2 py-1  "> LOGIN </button>
-    <button className="w-[72%] text-white active:scale-90 font-bold text-center bg-black px-2 py-1.5 rounded  ">SIGNUP</button> 
+<Link to={"/signin"}><button className=" border rounded active:scale-90 border-stone-950  font-bold  px-3 py-1  "> LOGIN </button></Link>
+<Link to={"/signup"}> <button className="text-white active:scale-90 font-bold text-center bg-black px-3 py-1.5 rounded  ">SIGNUP</button></Link> 
+
     <Link to={"/cart"}> <img src="/images/addtocart.png" className="object-contain active:scale-90 " width={32}></img></Link>
 
 </div>

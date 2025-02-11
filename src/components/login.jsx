@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 
 
 export function Signin(){
-    return  <div className=" flex w-full flex-col p-10 items-center justify-center">
+    return  <div className=" flex w-full flex-col  p-10 items-center justify-center">
         
-        <h1 className="mt-2 text-center text-3xl font-bold text-[#534c51] font-playfair">Login in to your  account</h1>
-           <div className="shadow mt-2 text-gray- flex rounded-lg  flex-col items-center justify-center  space-y-2 p-8">
+        <h1 className="mt-2 text-center md:text-3xl text-xl font-bold  text-[#534c51] font-playfair">Login in to your  account</h1>
+           <div className="shadow mt-2 text-gray- w-[280px] flex rounded-lg  flex-col items-center justify-center  space-y-2 p-8">
     
 
 
@@ -23,7 +23,7 @@ export function Signin(){
     </div>
     
     
-    <div className="flex p-1  space-x-2 flex-row font-normal text-center cursor-pointer text-sm w-11/12 border-[1px] rounded-lg border-gray-400 active:scale-90 justify-center items-center "> <span>{"continue with google "}
+    <div className="flex p-1  space-x-2 flex-row font-normal cursor-pointer text-sm w-11/12 border-[1px] rounded-lg border-gray-400 active:scale-90 justify-center items-center  "> <span>{"continue with google "}
     </span> 
         <img src="https://i.ibb.co/Y7t2FP9B/google.png" alt="google" className=" flex self-center " width={16} alt="" />
     </div>

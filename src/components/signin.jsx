@@ -9,7 +9,7 @@ return <div className=" flex w-full flex-col p-10 items-center justify-center">
     
     <h1 className="mt-2 text-center text-3xl font-bold text-[#534c51] font-playfair">Create  account</h1>
     
-    <div className="shadow mt-8 w-[300px] self-center justify-items-center  text-gray- flex rounded-lg  flex-col items-center justify-center  space-y-2 p-8">
+    <div className="shadow mt-1 w-[300px] self-center justify-items-center  text-gray- flex rounded-lg  flex-col items-center justify-center  space-y-2 p-8">
 
 <Input content={"your name"}></Input>
 
