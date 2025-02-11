@@ -87,14 +87,23 @@ onClick={()=>{decreasecount(e)}}
 <div className=" w-full flex justify-center items-center">
 
 <div className="flex flex-col  md:flex-row  items-center w-full justify-between max-w-3xl bg-white/30 backdrop-blur-lg shadow-lg rounded-xl p-6 border border-white/40">
-  {/* Left: Summary Details */}
+
   <div className="w-full md:w-2/3 space-y-4 text-gray-800">
     <h2 className="text-2xl font-semibold text-gray-900 border-b pb-2">Cart Summary</h2>
-
-    <div className="flex justify-between text-lg">
-      <span>Total Items:</span>
-      <span className="font-medium">{cart.length}</span>
+<div className="flex flex-col"> 
+  
+    
+{
+  cart.map((e,index)=>(
+    <div key={index} className="flex justify-between text-lg">
+      <span>{e.title} x{e.count}</span>
+      <span className="font-medium font-manrope ">{e.price*e.count}</span>
+    </div> 
+  ))
+} 
+    
     </div>
+   
 
     <div className="border-t pt-2 flex justify-between text-xl font-bold">
       <span>Total:</span>
@@ -102,7 +111,6 @@ onClick={()=>{decreasecount(e)}}
     </div>
   </div>
 
-  {/* Right: Checkout Button */}
   <div className="mt-4 md:mt-0">
     <button
       className="px-6 py-3 bg-[#BA7894] text-white font-semibold rounded-lg shadow-md hover:bg-[#a66d85] transition-all 

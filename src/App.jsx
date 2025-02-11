@@ -8,6 +8,8 @@ import Footer from "./components/footer"
 import { Cartprovider } from "./context/Cartcontext"
 import Cartpage from "./components/cart"
 import Aboutus from "./components/aboutus"
+import { Signin } from "./components/login"
+import { Signup } from "./components/signin"
 function App(){
 
 
@@ -32,6 +34,9 @@ function App(){
     />
     <Route path="/cart" element={<Cartpage />} />
     <Route path="/aboutus" element={<Aboutus />} />
+    <Route path="/signup" element={<Signup />} />
+
+    <Route path="/signin" element={<Signin />} />
   </Routes>
 <Footer></Footer>
 

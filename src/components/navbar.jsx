@@ -29,8 +29,10 @@ const [isopen,setopen]=useState(false);
     </div>
     
     
-    <div className=" flex  items-center space-x-6 text-sm "> <button className=" border rounded active:scale-90 border-stone-950  font-bold  px-3 py-1  "> LOGIN </button>
-    <button className="text-white active:scale-90 font-bold text-center bg-black px-3 py-1.5 rounded  ">SIGNUP</button>
+    <div className=" flex  items-center space-x-6 text-sm "> 
+   
+<Link to={"/signin"}><button className=" border rounded active:scale-90 border-stone-950  font-bold  px-3 py-1  "> LOGIN </button></Link>
+<Link to={"/signup"}> <button className="text-white active:scale-90 font-bold text-center bg-black px-3 py-1.5 rounded  ">SIGNUP</button></Link>
    <Link to={"/cart"}> <img src="/images/addtocart.png" className="object-contain active:scale-90 " width={32}></img></Link>
      </div>
   
